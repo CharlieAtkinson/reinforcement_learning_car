@@ -25,10 +25,10 @@ In `CarRacing-v3`:
 
 ## Visual Progress: V1 vs. Final V4
 
-| V1 Baseline (Throttle Lock & Slide) | V4 Final (Braking & Apex Control) |
-| :---: | :---: |
-| ![V1 Failure](assets/old_videos/v1_fail.gif) | ![V4 Showcase](assets/v4_videos/v4_showcase.gif) |
-| *V1 full-throttled into Turn 1, spun off into the grass, and never recovered.* | *V4 taps brakes before sharp corners, clips apexes, and finishes laps in ~770 frames.* |
+|                                V1 Baseline (Throttle Lock & Slide)                                | V4 Final (Braking & Apex Control) |
+|:-------------------------------------------------------------------------------------------------:| :---: |
+|                           ![V1 Failure](assets/old_videos/v1_fail.gif)                            | ![V4 Showcase](assets/v4_videos/v4_showcase.gif) |
+| *V1 full-throttles into every turn, and ends up spinning off into the grass, and never recovers.* | *V4 taps brakes before sharp corners, clips apexes, and finishes laps in ~770 frames.* |
 
 ---
 
