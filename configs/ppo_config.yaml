@@ -1,0 +1,15 @@
+env_id: "CarRacing-v3"
+seed: 42
+total_timesteps: 400000
+
+ppo:
+  learning_rate: 0.0001        # Lower LR for fine-tuning stability
+  n_steps: 1024
+  batch_size: 128
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.01               # Increased entropy (from 0.005) to force brake exploration
+  vf_coef: 0.5
+  max_grad_norm: 0.5

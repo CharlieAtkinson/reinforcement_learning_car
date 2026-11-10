@@ -1,0 +1,20 @@
+﻿# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# TensorBoard Logs (Keep repo lightweight)
+logs/
+
+# IDE & OS Settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
